@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 500px;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 500px;
+}
+
+.question{
+    background-color: #8154c4;
+    color: white;
+    padding: 2em;
+}
+
+.container h3 {
+    width: 100%;
+}
+.container ul {
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.container ul > li{
+    padding-bottom: 1rem;
+}
+
+.btn{
+    text-align: right;
+    padding: 1rem;
+}
+
+.btn h4{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.btn button{
+    background: #35cc5d;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
